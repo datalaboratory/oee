@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta property="og:image" content="http://oee.datalaboratory.ru/images/facebook.png">
+    <meta property="og:title" content="Общая эффективность оборудования завода «Экстрамаслопродукт». Визуализация Лаборатории данных">
+    <title>Общая эффективность оборудования завода «Экстрамаслопродукт». Визуализация Лаборатории данных</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/vendor.css">
+  	<link rel="stylesheet" href="styles/app.css">
+  	<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter35945155 = new Ya.Metrika({ id:35945155, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/35945155" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+  </head>
+  <body>
+    <div class="tooltip"></div>
+    <div class="loading-cover">
+      <svg class="dl-symbol">
+        <defs>
+          <linearGradient id="colors" x1="0" y1="0" x2="100%" y2="0%">
+            <stop stop-color="#fa0" offset=0 />
+            <stop stop-color="#f60" offset=.125 />
+            <stop stop-color="#e43" offset=.25 />
+            <stop stop-color="#95b" offset=.375 />
+            <stop stop-color="#07f" offset=.5 />
+            <stop stop-color="#95b" offset=.625 />
+            <stop stop-color="#e43" offset=.75 />
+            <stop stop-color="#f60" offset=.875 />
+            <stop stop-color="#fa0" offset=1 />
+          </linearGradient>
+        </defs>
+        <clippath id="logo-path">
+          <path d="M87.2,16.7c0.3,1.9,4.1,11.8,8.2,21.4c12.1,28.5,40.6,90,60.9,130.6c3.8,8.2,9.9,18.9,9.9,20s-0.5,2.7-3.3,2.7 c-3.8-0.5-22.5-1.1-34.6-1.1c-30.2,0-58.4-0.3-91.9-0.3c-5.8,0-26.1,0.8-32.4,0.8c-1.6,0-3.3-1.1-2.5-2.7 c1.6-3.8,8.2-15.9,14.5-28.3C25.2,141.6,79.6,23,82.6,16.4c0.8-2.2,1.9-2.7,2.7-2.7C86.4,13.7,86.7,15.1,87.2,16.7z M76.8,178.3 c24.4,0,49.1,0.3,53.5-1.1c0.8-0.3,1.4-1.4,1.1-2.5C120.4,147.6,82,63.9,75.7,50.5c-0.5-1.1-1.6-0.5-2.2,0 c-13.4,28.3-44.4,97.7-56,124c-0.3,0.8-0.5,2.2,1.4,2.5C22.5,177.8,43.9,178.3,76.8,178.3z"/>
+          <path d="M225,42.8c4.4,15.1,20,98,25.2,114.4c3.6,11.2,8.2,16.5,18.1,16.5c4.1,0,9.1-1.6,12.3-3.3c0.8-0.5,1.4,0.3,1.4,1.4 c-0.3,3.8-1.6,9.1-3.6,12.6c-3.3,6.6-9.1,10.4-14.5,10.4c-9.9,0-13.4-12.9-16.7-24.1c-4.4-15.9-13.7-56.8-14.3-59.3 c-0.3-0.8-0.5-1.6-1.1-1.6c-0.3,0-0.8,0.8-0.8,1.4c-3.8,11.8-26.9,71.6-29.1,75.5c-1.1,2.7-4.7,7.7-6.3,7.7 c-1.6,0-10.2-2.2-13.4-4.9c-1.4-0.8-2.5-3.6-1.9-4.1l37-78.2c2.7-5.8,7.7-14.5,9.1-15.6c0.8-1.1,1.4-3,1.1-4.7 c-3.6-15.4-7.7-31.3-13.7-43.6c-7.1-13.7-16.5-25-32.4-25c-9.9,0-16.2,2.7-23,7.4c-0.8,0.8-1.9,0-1.9-1.6c0.3-2.2,1.9-5.2,3.8-8.2 c6-9.1,16.7-14.8,28.3-14.8C206.6,0.8,216.5,15.1,225,42.8z"/>
+        </clippath>
+        <g id="double" clip-path="url(#logo-path)" transform="scale(0.2)">
+          <rect width="1100" height="200" fill="url(#colors)">
+            <animate attributeName="x" values="0; 1100" repeatCount="indefinite" dur="5s"/>
+          </rect>
+          <rect width="1100" height="200" fill="url(#colors)">
+            <animate attributeName="x" values="-1099; 1" repeatCount="indefinite" dur="5s"/>
+          </rect>
+        </g>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="content">
+        <div class="header">
+          <div class="logo leftBlock">
+            <img src="images/flower.png"/>
+          </div>
+          <div class="title leftBlock">
+            <h1>Экстрамаслопродукт</h1>
+          </div>
+          <div class="selectorBlock rightBlock">
+            <div class="leftBlock active" id="m1">за месяц</div>
+            <div class="selectorPicture leftBlock">
+              <img src="images/switcher-month.png">
+            </div>
+            <div class="leftBlock" id="m12">за год</div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="graph">
+          <div class="infoContainer leftBlock">
+            <div class="dateAndTime">
+              <div class="dateSelector leftBlock">
+                <div class="leftBlock arrow left">&#9668;</div>
+                <div class="leftBlock text">в июле 2015 г.</div>
+                <div class="leftBlock arrow">&#9658;</div>
+              </div>
+              <div class="currentTime leftBlock">
+                <div class="icon leftBlock">
+                  <img src="images/clock.png">
+                </div>
+                <div class="time leftBlock">15–16</div>
+              </div>
+            </div>
+            <div class="clear"></div>
+            <div class="textInfo">
+              <div class="tableParameters leftBlock">
+                <table>
+                  <tr>
+                    <td class="">План</td>
+                    <td class="rightColumn rightAlign" id="plan">1200 т</td>
+                  </tr>
+                  <tr class="separator1"></tr>
+                  <tr>
+                    <td class="">Брак<div class="legend-plus">&plus;</div><div class="legend-bad"></div></td>
+                    <td class="rightColumn rightAlign" id="defective">34 т</td>
+                  </tr>
+                  <tr class="borderBottom">
+                    <td class="">Кондиция<div class="legend-good"></div></td>
+                    <td class="rightColumn rightAlign" id="production">620 т</td>
+                  </tr>
+                  <tr>
+                    <td class="">Факт</td>
+                    <td class="rightColumn rightAlign" id="fact">654 т</td>
+                  </tr>
+                  <tr class="separator2"></tr>
+                  <tr>
+                    <td class="">План. время<div class="legend-minus">&minus;</div></td>
+                    <td class="rightColumn rightAlign" id="plantime">1300 ч</td>
+                  </tr>
+                  <tr class="borderBottom">
+                    <td class="">Факт. время</td>
+                    <td class="rightColumn rightAlign" id="facttime">1148 ч</td>
+                  </tr>
+                  <tr>
+                    <td class="">Простой</td>
+                    <td class="rightColumn rightAlign" id="stoptime">152 ч</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="productionGraph leftBlock">
+              </div>
+            </div>
+            <div class="clear"></div>
+            <div class="stopsGraph"></div>
+            <div class="clear"></div>
+            <div class="parametersExplained">
+              <table class="parametersTable">
+                <tr>
+                  <td class="parametersFormulas">
+                    Доступность (Д) = факт.&thinsp;вр.&thinsp;/&thinsp;план.&thinsp;вр.<br>
+                    Производительность (П) = факт&thinsp;/&thinsp;план<br>
+                    Качество (К) = кондиция&thinsp;/&thinsp;факт<br>
+                  </td>
+                  <td>
+                    <span id="d">83%</span><br>
+                    <span id="p">74%</span><br>
+                    <span id="q">81%</span><br>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="oee">
+              <span class="smallcaps">OEE</span> = Д&thinsp;&times;&thinsp;П&thinsp;&times;&thinsp;К = <span id="oee">50%</span>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="daysContainer rightBlock">
+            <div class="day rightBlock">вс</div>
+            <div class="day rightBlock">сб</div>
+            <div class="day rightBlock">пт</div>
+            <div class="day rightBlock">чт</div>
+            <div class="day rightBlock">ср</div>
+            <div class="day rightBlock">вт</div>
+            <div class="day rightBlock">пн</div>
+          </div>
+          <div class="outerContainer rightBlock">
+            <div class="graphContainer leftBlock facility"></div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="table"></div>
+        <div class="footer">
+          <div class="leftBlock">
+            Визуализация <span class="signature"><a href="http://datalaboratory.ru">Лаборатории данных</a></span>
+          </div>
+          <div class="rightBlock">
+            <div class="likely">
+              <div class="twitter" data-via="datalaboratory" data-title="Общая эффективность оборудования завода «Экстрамаслопродукт»:">Твитнуть</div>
+              <div class="facebook">Поделиться</div>
+              <div class="vkontakte" data-title="Общая эффективность оборудования завода «Экстрамаслопродукт»: http://oee.datalaboratory.ru/">Поделиться</div>
+              <div class="pinterest" data-media="http://oee.datalaboratory.ru/images/pinterest.png" data-title="Общая эффективность оборудования завода «Экстрамаслопродукт»: http://oee.datalaboratory.ru/">Запинить</div>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="disclaimer">Все данные о заводе «Экстрамаслопродукт» и сам завод придуманы для демонстрации идеи. Названия цехов и машин приближены к реальному маслоэкстрактному производству.
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/vendor.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
